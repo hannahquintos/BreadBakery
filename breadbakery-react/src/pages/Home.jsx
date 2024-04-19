@@ -33,11 +33,11 @@ export default function Home() {
                 </div>
             </div> 
            <div>
-                <img src="./src/assets/home-croissant.png" alt="" />
+                <img src="./src/assets/home-croissant.png" alt="Bread on brown wooden tray." />
                 {/* https://unsplash.com/photos/bread-on-brown-wooden-tray-jfMCgNandXk */}
             </div> 
            <div>
-                <img src="./src/assets/home-bakery.png" alt="" />
+                <img src="./src/assets/home-bakery.png" alt="Glass window looking into bakery." />
                 {/* https://unsplash.com/photos/black-and-gray-metal-framed-glass-display-counter-3-PfUgbyWEs */}
             </div> 
 
