@@ -22,13 +22,13 @@ export default function Home() {
                 <p>breadbakery@gmail.com</p>
                 <div id="socials">
                     <Link to="https://www.facebook.com">
-                        <img src="./src/assets/facebook-icon.svg" alt="" />
+                        <img src="./src/assets/facebook-icon.svg" alt="Facebook icon." />
                     </Link>
                     <Link to="https://www.instagram.com">
-                        <img src="./src/assets/instagram-icon.svg" alt="" />
+                        <img src="./src/assets/instagram-icon.svg" alt="Instagram icon." />
                     </Link>
                     <Link to="https://twitter.com">
-                        <img src="./src/assets/twitter-icon.svg" alt="" />
+                        <img src="./src/assets/twitter-icon.svg" alt="Twitter icon." />
                     </Link>
                 </div>
             </div> 

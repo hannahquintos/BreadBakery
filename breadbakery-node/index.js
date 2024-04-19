@@ -1,6 +1,5 @@
 //import required modules
 const express = require("express"); 
-// const path = require("path");
 const cors = require("cors"); //need this to set this API to allow requests from other servers
 const { MongoClient, ObjectId } = require("mongodb");
 const dotenv = require("dotenv");
@@ -87,11 +86,3 @@ async function getAllLocations() {
   let res = await results.toArray();
   return res;
 }
-
-//Function to retrieve a single document from products by _id
-// async function getSingleLocation(id){
-//     db = await connection();
-//     const locationId = { _id: new ObjectId(String(id)) };
-//     const result = await db.collection("locations").findOne(locationId); 
-//     return result;
-// }
